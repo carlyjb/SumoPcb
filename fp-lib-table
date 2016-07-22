@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ArduinoFootprints)(type KiCad)(uri "$(KIPRJMOD)/ArduinoFootprints.pretty")(options "")(descr ""))
+)

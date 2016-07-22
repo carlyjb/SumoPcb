@@ -51,8 +51,8 @@ L D_Small D1
 U 1 1 5781B30D
 P 7450 3300
 F 0 "D1" H 7400 3380 50  0000 L CNN
-F 1 "D_Small" H 7300 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 7450 3300 50  0001 C CNN
+F 1 "1N4001" H 7300 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 7450 3300 50  0001 C CNN
 F 3 "" V 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
@@ -62,8 +62,8 @@ L D_Small D3
 U 1 1 5781B35A
 P 8200 3300
 F 0 "D3" H 8150 3380 50  0000 L CNN
-F 1 "D_Small" H 8050 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 8200 3300 50  0001 C CNN
+F 1 "1N4001" H 8050 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 8200 3300 50  0001 C CNN
 F 3 "" V 8200 3300 50  0000 C CNN
 	1    8200 3300
 	1    0    0    -1  
@@ -73,8 +73,8 @@ L D_Small D2
 U 1 1 5781B3C5
 P 7850 3300
 F 0 "D2" H 7800 3380 50  0000 L CNN
-F 1 "D_Small" H 7700 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 7850 3300 50  0001 C CNN
+F 1 "1N4001" H 7700 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 7850 3300 50  0001 C CNN
 F 3 "" V 7850 3300 50  0000 C CNN
 	1    7850 3300
 	1    0    0    -1  
@@ -84,8 +84,8 @@ L D_Small D4
 U 1 1 5781B3EE
 P 8600 3300
 F 0 "D4" H 8550 3380 50  0000 L CNN
-F 1 "D_Small" H 8450 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 8600 3300 50  0001 C CNN
+F 1 "1N4001" H 8450 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 8600 3300 50  0001 C CNN
 F 3 "" V 8600 3300 50  0000 C CNN
 	1    8600 3300
 	1    0    0    -1  
@@ -95,8 +95,8 @@ L D_Small D7
 U 1 1 5781B419
 P 9750 3300
 F 0 "D7" H 9700 3380 50  0000 L CNN
-F 1 "D_Small" H 9600 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 9750 3300 50  0001 C CNN
+F 1 "1N4001" H 9600 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 9750 3300 50  0001 C CNN
 F 3 "" V 9750 3300 50  0000 C CNN
 	1    9750 3300
 	1    0    0    -1  
@@ -106,8 +106,8 @@ L D_Small D5
 U 1 1 5781B43A
 P 9000 3300
 F 0 "D5" H 8950 3380 50  0000 L CNN
-F 1 "D_Small" H 8850 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 9000 3300 50  0001 C CNN
+F 1 "1N4001" H 8850 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 9000 3300 50  0001 C CNN
 F 3 "" V 9000 3300 50  0000 C CNN
 	1    9000 3300
 	1    0    0    -1  
@@ -117,8 +117,8 @@ L D_Small D8
 U 1 1 5781B45D
 P 10150 3300
 F 0 "D8" H 10100 3380 50  0000 L CNN
-F 1 "D_Small" H 10000 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 10150 3300 50  0001 C CNN
+F 1 "1N4001" H 10000 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 10150 3300 50  0001 C CNN
 F 3 "" V 10150 3300 50  0000 C CNN
 	1    10150 3300
 	1    0    0    -1  
@@ -128,21 +128,10 @@ L D_Small D6
 U 1 1 5781B482
 P 9400 3300
 F 0 "D6" H 9350 3380 50  0000 L CNN
-F 1 "D_Small" H 9250 3220 50  0000 L CNN
-F 2 "ArduinoFootprints:S1BB_rectifier_diode" V 9400 3300 50  0001 C CNN
+F 1 "1N4001" H 9250 3220 50  0000 L CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" V 9400 3300 50  0001 C CNN
 F 3 "" V 9400 3300 50  0000 C CNN
 	1    9400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TB6612FNG U1
-U 1 1 5781B5DB
-P 6000 3000
-F 0 "U1" H 6000 3000 60  0000 C CNN
-F 1 "TB6612FNG" H 6000 3000 60  0000 C CNN
-F 2 "ArduinoFootprints:TB6612FNG_motor_driver" H 6000 3000 60  0001 C CNN
-F 3 "" H 6000 3000 60  0000 C CNN
-	1    6000 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -195,25 +184,23 @@ F 3 "" H 4050 2250 50  0000 C CNN
 	1    4050 2250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6500 3850
-NoConn ~ 5500 3850
-Text Label 2350 3200 0    60   ~ 0
+Text Label 4100 3350 0    60   ~ 0
 BIN2_W
-Text Label 6550 3750 0    60   ~ 0
+Text Label 6950 5400 0    60   ~ 0
 PWMB_W
-Text Label 6550 3650 0    60   ~ 0
+Text Label 6950 5300 0    60   ~ 0
 BIN2_W
-Text Label 2350 3100 0    60   ~ 0
+Text Label 4100 3450 0    60   ~ 0
 BIN1_W
-Text Label 6550 3550 0    60   ~ 0
+Text Label 6950 5200 0    60   ~ 0
 BIN1_W
-Text Label 2350 3000 0    60   ~ 0
+Text Label 4100 3550 0    60   ~ 0
 STBY_W
-Text Label 6550 3450 0    60   ~ 0
+Text Label 6950 5000 0    60   ~ 0
 STBY_W
-Text Label 2350 2900 0    60   ~ 0
+Text Label 4100 3650 0    60   ~ 0
 AIN1_W
-Text Label 6550 3350 0    60   ~ 0
+Text Label 6950 4800 0    60   ~ 0
 AIN1_W
 Text Label 8400 2950 1    60   ~ 0
 MOTOR1_TERMB
@@ -260,11 +247,11 @@ F 3 "" H 9500 3800 50  0000 C CNN
 	1    9500 3800
 	1    0    0    -1  
 $EndComp
-Text Label 4100 3550 0    60   ~ 0
+Text Label 2400 2900 0    60   ~ 0
 PWMB_W
 Text Label 4100 3750 0    60   ~ 0
 PWMA_W
-Text Label 6550 3150 0    60   ~ 0
+Text Label 6950 4600 0    60   ~ 0
 PWMA_W
 Text Label 8400 3800 1    60   ~ 0
 B02_W
@@ -272,40 +259,40 @@ Text Label 9950 3800 1    60   ~ 0
 A02_W
 Text Label 9200 3800 1    60   ~ 0
 A01_W
-Text Label 5200 3750 0    60   ~ 0
+Text Label 4600 5500 0    60   ~ 0
 B01_W
-Text Label 5200 3650 0    60   ~ 0
+Text Label 4600 5100 0    60   ~ 0
 B02_W
-Text Label 5200 3550 0    60   ~ 0
+Text Label 4600 4900 0    60   ~ 0
 A02_W
-Text Label 5200 3450 0    60   ~ 0
+Text Label 4600 4500 0    60   ~ 0
 A01_W
 $Comp
 L GND #PWR08
 U 1 1 57824A7C
-P 5150 2800
-F 0 "#PWR08" H 5150 2550 50  0001 C CNN
-F 1 "GND" H 5150 2650 50  0000 C CNN
-F 2 "" H 5150 2800 50  0000 C CNN
-F 3 "" H 5150 2800 50  0000 C CNN
-	1    5150 2800
-	-1   0    0    1   
+P 5200 5900
+F 0 "#PWR08" H 5200 5650 50  0001 C CNN
+F 1 "GND" H 5200 5750 50  0000 C CNN
+F 2 "" H 5200 5900 50  0000 C CNN
+F 3 "" H 5200 5900 50  0000 C CNN
+	1    5200 5900
+	1    0    0    -1  
 $EndComp
-Text Label 4100 3350 0    60   ~ 0
+Text Label 2400 3100 0    60   ~ 0
 AIN2_W
-Text Label 6550 3250 0    60   ~ 0
+Text Label 6950 4700 0    60   ~ 0
 AIN2_W
 Text Label 7650 3800 1    60   ~ 0
 B01_W
 $Comp
 L +3.3V #PWR09
 U 1 1 57824EFC
-P 5500 2800
-F 0 "#PWR09" H 5500 2650 50  0001 C CNN
-F 1 "+3.3V" H 5500 2940 50  0000 C CNN
-F 2 "" H 5500 2800 50  0000 C CNN
-F 3 "" H 5500 2800 50  0000 C CNN
-	1    5500 2800
+P 6800 4300
+F 0 "#PWR09" H 6800 4150 50  0001 C CNN
+F 1 "+3.3V" H 6800 4440 50  0000 C CNN
+F 2 "" H 6800 4300 50  0000 C CNN
+F 3 "" H 6800 4300 50  0000 C CNN
+	1    6800 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -381,13 +368,13 @@ F 3 "" H 7950 3800 50  0000 C CNN
 $EndComp
 Text Label 4100 3250 0    60   ~ 0
 V_LOGIC
-Text Label 5200 3250 0    60   ~ 0
+Text Label 7750 4900 0    60   ~ 0
 V_LOGIC
 $Comp
-L Trinket_Pro_5V J1
+L Trinket_Pro_5V J4
 U 1 1 578280CB
 P 3450 2750
-F 0 "J1" H 3450 2750 60  0000 C CNN
+F 0 "J4" H 3400 2850 60  0000 C CNN
 F 1 "Trinket_Pro_5V" H 3450 2750 60  0000 C CNN
 F 2 "ArduinoFootprints:Trinket_Pro_5V" H 3450 2750 60  0001 C CNN
 F 3 "" H 3450 2750 60  0000 C CNN
@@ -409,37 +396,35 @@ NoConn ~ 2900 4200
 NoConn ~ 4050 4050
 NoConn ~ 4050 3950
 NoConn ~ 4050 3850
-NoConn ~ 4050 3650
-NoConn ~ 4050 3450
 NoConn ~ 2950 3700
 $Comp
-L SENSOR_CONN J2
+L SENSOR_CONN J1
 U 1 1 57829615
 P 2150 5000
-F 0 "J2" H 2100 4350 60  0000 C BNN
-F 1 "SENSOR_CONN" H 2150 5000 60  0000 C CNN
+F 0 "J1" H 2100 4350 60  0000 C BNN
+F 1 "DIST SENS" H 2150 5000 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2150 5000 60  0001 C CNN
 F 3 "" H 2150 5000 60  0000 C CNN
 	1    2150 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L SENSOR_CONN J3
+L SENSOR_CONN J2
 U 1 1 57829670
 P 2150 5750
-F 0 "J3" H 2100 5100 60  0000 C BNN
-F 1 "SENSOR_CONN" H 2150 5750 60  0000 C CNN
+F 0 "J2" H 2100 5100 60  0000 C BNN
+F 1 "LEFT SENS" H 2150 5750 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2150 5750 60  0001 C CNN
 F 3 "" H 2150 5750 60  0000 C CNN
 	1    2150 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L SENSOR_CONN J4
+L SENSOR_CONN J3
 U 1 1 578296DD
 P 2150 6500
-F 0 "J4" H 2100 5850 60  0000 C BNN
-F 1 "SENSOR_CONN" H 2150 6500 60  0000 C CNN
+F 0 "J3" H 2100 5850 60  0000 C BNN
+F 1 "RIGHT SENS" H 2150 6500 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2150 6500 60  0001 C CNN
 F 3 "" H 2150 6500 60  0000 C CNN
 	1    2150 6500
@@ -518,23 +503,23 @@ LEFT_SIGNAL
 Text Label 2650 6800 0    60   ~ 0
 RIGHT_SIGNAL
 $Comp
-L Motor_Connection M1
+L Motor_Connection M3
 U 1 1 5782A5EB
 P 7850 1300
-F 0 "M1" H 7850 950 60  0000 C CNN
-F 1 "Motor_Connection" H 7850 1350 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7850 1350 60  0001 C CNN
+F 0 "M3" H 7850 950 60  0000 C CNN
+F 1 "Motor1" H 7850 1350 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7850 1350 60  0001 C CNN
 F 3 "" H 7850 1350 60  0000 C CNN
 	1    7850 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Connection M2
+L Motor_Connection M4
 U 1 1 5782A682
 P 9450 1300
-F 0 "M2" H 9450 950 60  0000 C CNN
-F 1 "Motor_Connection" H 9450 1350 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 9450 1350 60  0001 C CNN
+F 0 "M4" H 9450 950 60  0000 C CNN
+F 1 "Motor2" H 9450 1350 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 9450 1350 60  0001 C CNN
 F 3 "" H 9450 1350 60  0000 C CNN
 	1    9450 1300
 	1    0    0    -1  
@@ -547,120 +532,6 @@ Text Label 9800 1500 0    60   ~ 0
 MOTOR2_TERMB
 Text Label 9800 1400 0    60   ~ 0
 MOTOR2_TERMA
-Wire Wire Line
-	2150 1950 2150 1700
-Wire Wire Line
-	2550 1950 2550 1700
-Wire Wire Line
-	2350 3200 2900 3200
-Wire Wire Line
-	2350 3100 2900 3100
-Wire Wire Line
-	6500 3550 6850 3550
-Wire Wire Line
-	2350 3000 2900 3000
-Wire Wire Line
-	6500 3450 6850 3450
-Wire Wire Line
-	6500 3350 6850 3350
-Wire Wire Line
-	4050 3350 4350 3350
-Wire Wire Line
-	6500 3250 6850 3250
-Wire Wire Line
-	4300 3750 4050 3750
-Wire Wire Line
-	6500 3150 6850 3150
-Wire Wire Line
-	4350 3550 4050 3550
-Wire Wire Line
-	6850 3750 6500 3750
-Wire Wire Line
-	4050 2250 4050 2950
-Wire Wire Line
-	7550 3300 7750 3300
-Connection ~ 7650 3300
-Wire Wire Line
-	7350 3150 7350 3300
-Wire Wire Line
-	8300 3300 8500 3300
-Wire Wire Line
-	8400 2500 8400 3900
-Connection ~ 8400 3300
-Wire Wire Line
-	9950 2500 9950 3900
-Wire Wire Line
-	9850 3300 10050 3300
-Connection ~ 9950 3300
-Wire Wire Line
-	8100 3300 8100 3150
-Wire Wire Line
-	9650 3150 9650 3300
-Wire Wire Line
-	9100 3300 9300 3300
-Wire Wire Line
-	8900 3150 8900 3300
-Wire Wire Line
-	9200 2500 9200 3900
-Connection ~ 9200 3300
-Wire Wire Line
-	5500 2800 5500 3150
-Wire Wire Line
-	5150 3350 5500 3350
-Wire Wire Line
-	4200 2250 4200 3050
-Wire Wire Line
-	6500 3650 6850 3650
-Wire Wire Line
-	2900 2900 2350 2900
-Wire Wire Line
-	8700 3300 8700 3800
-Wire Wire Line
-	10250 3300 10250 3800
-Wire Wire Line
-	9500 3300 9500 3800
-Wire Wire Line
-	5500 3450 5200 3450
-Wire Wire Line
-	5500 3550 5200 3550
-Wire Wire Line
-	5500 3650 5200 3650
-Wire Wire Line
-	5500 3750 5200 3750
-Wire Wire Line
-	4200 3050 4050 3050
-Wire Wire Line
-	7650 2500 7650 3900
-Wire Wire Line
-	1750 1700 1750 1950
-Wire Wire Line
-	7950 3300 7950 3800
-Wire Wire Line
-	4050 3250 4350 3250
-Wire Wire Line
-	5500 3250 5200 3250
-Wire Wire Line
-	5150 2800 5150 3350
-Wire Wire Line
-	2900 3600 2150 3600
-Wire Wire Line
-	2900 3800 2150 3800
-Wire Wire Line
-	2900 3900 2150 3900
-Wire Wire Line
-	2450 5300 3200 5300
-Wire Wire Line
-	2450 6050 3150 6050
-Wire Wire Line
-	2450 6800 3150 6800
-Wire Wire Line
-	8150 1400 8900 1400
-Wire Wire Line
-	8150 1500 8900 1500
-Wire Wire Line
-	9750 1500 10500 1500
-Wire Wire Line
-	9750 1400 10500 1400
 $Comp
 L PWR_FLAG #FLG022
 U 1 1 5781B974
@@ -695,23 +566,23 @@ F 3 "" H 1750 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Connection M3
+L Motor_Connection M1
 U 1 1 579023DA
 P 3450 1150
-F 0 "M3" H 3450 800 60  0000 C CNN
-F 1 "Motor_Connection" H 3450 1200 60  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 3450 1200 60  0001 C CNN
+F 0 "M1" H 3450 800 60  0000 C CNN
+F 1 "Logic Power" H 3450 1200 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 3450 1200 60  0001 C CNN
 F 3 "" H 3450 1200 60  0000 C CNN
 	1    3450 1150
 	0    1    1    0   
 $EndComp
 $Comp
-L Motor_Connection M4
+L Motor_Connection M2
 U 1 1 5790242B
 P 4050 1150
-F 0 "M4" H 4050 800 60  0000 C CNN
-F 1 "Motor_Connection" H 4050 1200 60  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 4050 1200 60  0001 C CNN
+F 0 "M2" H 4050 800 60  0000 C CNN
+F 1 "Motor Power" H 4050 1200 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4050 1200 60  0001 C CNN
 F 3 "" H 4050 1200 60  0000 C CNN
 	1    4050 1150
 	0    1    1    0   
@@ -760,12 +631,222 @@ F 3 "" H 3950 1550 50  0000 C CNN
 	1    3950 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L TB6612FNG U1
+U 1 1 57918CA6
+P 5900 5200
+F 0 "U1" H 5900 6100 60  0000 C CNN
+F 1 "TB6612FNG" H 5900 6000 60  0000 C CNN
+F 2 "ArduinoFootprints:TB6612FNG" H 5900 5200 60  0001 C CNN
+F 3 "" H 5900 5200 60  0000 C CNN
+	1    5900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 5791AC93
+P 7600 5000
+F 0 "C3" H 7610 5070 50  0000 L CNN
+F 1 "0.1uF" H 7610 4920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7600 5000 50  0001 C CNN
+F 3 "" H 7600 5000 50  0000 C CNN
+	1    7600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5791AE26
+P 7000 5700
+F 0 "C1" H 7010 5770 50  0000 L CNN
+F 1 "0.1uF" H 7010 5620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7000 5700 50  0001 C CNN
+F 3 "" H 7000 5700 50  0000 C CNN
+	1    7000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 5791AF18
+P 7300 5700
+F 0 "C2" H 7310 5770 50  0000 L CNN
+F 1 "10uF, 20V" H 7310 5620 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_HandSoldering" H 7300 5700 50  0001 C CNN
+F 3 "" H 7300 5700 50  0000 C CNN
+	1    7300 5700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 3000
+NoConn ~ 2900 3200
 Wire Wire Line
-	3950 1450 3950 1550
+	2900 3100 2400 3100
 Wire Wire Line
-	3850 1450 3850 1650
+	4050 3450 4350 3450
+Wire Wire Line
+	4050 3650 4350 3650
+Connection ~ 7000 5800
+Connection ~ 6700 5800
+Connection ~ 7000 5600
+Connection ~ 6800 5600
+Connection ~ 7600 4900
+Connection ~ 6700 5100
+Connection ~ 5200 5800
+Wire Wire Line
+	5200 5800 7300 5800
+Connection ~ 5100 5500
+Wire Wire Line
+	5100 5600 5100 5500
+Wire Wire Line
+	5300 5600 5100 5600
+Connection ~ 5100 5100
+Wire Wire Line
+	5100 5200 5100 5100
+Wire Wire Line
+	5300 5200 5100 5200
+Connection ~ 5100 4900
+Wire Wire Line
+	5100 5000 5100 4900
+Wire Wire Line
+	5300 5000 5100 5000
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4600 5100 4500
+Wire Wire Line
+	5300 4600 5100 4600
+Wire Wire Line
+	4600 4500 5300 4500
+Wire Wire Line
+	4600 4900 5300 4900
+Wire Wire Line
+	4600 5500 5300 5500
+Wire Wire Line
+	4600 5100 5300 5100
+Connection ~ 5200 4800
+Wire Wire Line
+	5300 4700 5200 4700
+Connection ~ 5200 5300
+Wire Wire Line
+	5300 4800 5200 4800
+Connection ~ 5200 5400
+Wire Wire Line
+	5200 5300 5300 5300
+Wire Wire Line
+	5200 5400 5300 5400
+Wire Wire Line
+	5200 4700 5200 5900
+Wire Wire Line
+	6500 4600 7300 4600
+Wire Wire Line
+	6500 4700 7300 4700
+Wire Wire Line
+	6500 4900 8100 4900
+Wire Wire Line
+	6500 4800 7300 4800
+Wire Wire Line
+	6500 5000 7300 5000
+Wire Wire Line
+	6500 5200 7300 5200
+Wire Wire Line
+	6500 5300 7300 5300
+Wire Wire Line
+	6500 5400 7300 5400
+Connection ~ 6800 5500
+Wire Wire Line
+	6500 5600 7300 5600
+Connection ~ 6800 4500
+Wire Wire Line
+	6800 5500 6500 5500
+Wire Wire Line
+	6800 4300 6800 5600
+Wire Wire Line
+	6500 4500 6800 4500
+Wire Wire Line
+	6700 5100 6700 5800
+Wire Wire Line
+	6500 5100 7600 5100
+Wire Wire Line
+	3250 1450 3250 1650
 Wire Wire Line
 	3350 1450 3350 1550
 Wire Wire Line
-	3250 1450 3250 1650
+	3850 1450 3850 1650
+Wire Wire Line
+	3950 1450 3950 1550
+Wire Wire Line
+	9750 1400 10500 1400
+Wire Wire Line
+	9750 1500 10500 1500
+Wire Wire Line
+	8150 1500 8900 1500
+Wire Wire Line
+	8150 1400 8900 1400
+Wire Wire Line
+	2450 6800 3150 6800
+Wire Wire Line
+	2450 6050 3150 6050
+Wire Wire Line
+	2450 5300 3200 5300
+Wire Wire Line
+	2900 3900 2150 3900
+Wire Wire Line
+	2900 3800 2150 3800
+Wire Wire Line
+	2900 3600 2150 3600
+Wire Wire Line
+	4050 3250 4350 3250
+Wire Wire Line
+	7950 3300 7950 3800
+Wire Wire Line
+	1750 1700 1750 1950
+Wire Wire Line
+	7650 2500 7650 3900
+Wire Wire Line
+	4200 3050 4050 3050
+Wire Wire Line
+	9500 3300 9500 3800
+Wire Wire Line
+	10250 3300 10250 3800
+Wire Wire Line
+	8700 3300 8700 3800
+Wire Wire Line
+	2900 2900 2350 2900
+Wire Wire Line
+	4200 2250 4200 3050
+Connection ~ 9200 3300
+Wire Wire Line
+	9200 2500 9200 3900
+Wire Wire Line
+	8900 3150 8900 3300
+Wire Wire Line
+	9100 3300 9300 3300
+Wire Wire Line
+	9650 3150 9650 3300
+Wire Wire Line
+	8100 3300 8100 3150
+Connection ~ 9950 3300
+Wire Wire Line
+	9850 3300 10050 3300
+Wire Wire Line
+	9950 2500 9950 3900
+Connection ~ 8400 3300
+Wire Wire Line
+	8400 2500 8400 3900
+Wire Wire Line
+	8300 3300 8500 3300
+Wire Wire Line
+	7350 3150 7350 3300
+Connection ~ 7650 3300
+Wire Wire Line
+	7550 3300 7750 3300
+Wire Wire Line
+	4050 2250 4050 2950
+Wire Wire Line
+	4350 3550 4050 3550
+Wire Wire Line
+	4300 3750 4050 3750
+Wire Wire Line
+	4050 3350 4350 3350
+Wire Wire Line
+	2550 1950 2550 1700
+Wire Wire Line
+	2150 1950 2150 1700
 $EndSCHEMATC
