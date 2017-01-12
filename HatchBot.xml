@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/flynn/SumoPcb/Sumo 1.sch</source>
+    <source>/Users/flynn/SumoPcb/HatchBot.sch</source>
     <date>Thursday, July 21, 2016 'PMt' 11:26:14 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -10,7 +10,7 @@
         <company/>
         <rev>1</rev>
         <date>2016-07-09</date>
-        <source>Sumo 1.sch</source>
+        <source>HatchBot.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -21,63 +21,63 @@
   <components>
     <comp ref="D1">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B30D</tstamp>
     </comp>
     <comp ref="D3">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B35A</tstamp>
     </comp>
     <comp ref="D2">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B3C5</tstamp>
     </comp>
     <comp ref="D4">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B3EE</tstamp>
     </comp>
     <comp ref="D7">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B419</tstamp>
     </comp>
     <comp ref="D5">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B43A</tstamp>
     </comp>
     <comp ref="D8">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B45D</tstamp>
     </comp>
     <comp ref="D6">
       <value>1N4001</value>
-      <footprint>ArduinoFootprints:S1BB_rectifier_diode</footprint>
+      <footprint>HatchFootprints:S1BB_rectifier_diode</footprint>
       <libsource lib="device" part="D_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5781B482</tstamp>
     </comp>
     <comp ref="J4">
       <value>Trinket_Pro_5V</value>
-      <footprint>ArduinoFootprints:Trinket_Pro_5V</footprint>
+      <footprint>HatchFootprints:Trinket_Pro_5V</footprint>
       <libsource lib="trinket_pro_5v" part="Trinket_Pro_5V"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>578280CB</tstamp>
@@ -85,55 +85,55 @@
     <comp ref="J1">
       <value>SENSOR_CONN</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
-      <libsource lib="MyLib" part="SENSOR_CONN"/>
+      <libsource lib="HatchLib" part="SENSOR_CONN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57829615</tstamp>
     </comp>
     <comp ref="J2">
       <value>SENSOR_CONN</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
-      <libsource lib="MyLib" part="SENSOR_CONN"/>
+      <libsource lib="HatchLib" part="SENSOR_CONN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57829670</tstamp>
     </comp>
     <comp ref="J3">
       <value>SENSOR_CONN</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
-      <libsource lib="MyLib" part="SENSOR_CONN"/>
+      <libsource lib="HatchLib" part="SENSOR_CONN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>578296DD</tstamp>
     </comp>
     <comp ref="M3">
       <value>Motor_Connection</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
-      <libsource lib="MyLib" part="Motor_Connection"/>
+      <libsource lib="HatchLib" part="Motor_Connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5782A5EB</tstamp>
     </comp>
     <comp ref="M4">
       <value>Motor_Connection</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
-      <libsource lib="MyLib" part="Motor_Connection"/>
+      <libsource lib="HatchLib" part="Motor_Connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5782A682</tstamp>
     </comp>
     <comp ref="M1">
       <value>Motor_Connection</value>
       <footprint>Connect:BARREL_JACK</footprint>
-      <libsource lib="MyLib" part="Motor_Connection"/>
+      <libsource lib="HatchLib" part="Motor_Connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579023DA</tstamp>
     </comp>
     <comp ref="M2">
       <value>Motor_Connection</value>
       <footprint>Connect:BARREL_JACK</footprint>
-      <libsource lib="MyLib" part="Motor_Connection"/>
+      <libsource lib="HatchLib" part="Motor_Connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5790242B</tstamp>
     </comp>
     <comp ref="U1">
       <value>TB6612FNG</value>
-      <libsource lib="MyLib" part="TB6612FNG"/>
+      <libsource lib="HatchLib" part="TB6612FNG"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57918CA6</tstamp>
     </comp>
@@ -212,7 +212,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MyLib" part="Motor_Connection">
+    <libpart lib="HatchLib" part="Motor_Connection">
       <fields>
         <field name="Reference">M</field>
         <field name="Value">Motor_Connection</field>
@@ -222,7 +222,7 @@
         <pin num="2" name="TERM_B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MyLib" part="SENSOR_CONN">
+    <libpart lib="HatchLib" part="SENSOR_CONN">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SENSOR_CONN</field>
@@ -233,7 +233,7 @@
         <pin num="3" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MyLib" part="TB6612FNG">
+    <libpart lib="HatchLib" part="TB6612FNG">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TB6612FNG</field>
@@ -311,10 +311,10 @@
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
     <library logical="trinket_pro_5v">
-      <uri>/Users/flynn/SumoPcb/MyArduinoLib/trinket_pro_5v.lib</uri>
+      <uri>/Users/flynn/SumoPcb/HatchLib/trinket_pro_5v.lib</uri>
     </library>
-    <library logical="MyLib">
-      <uri>/Users/flynn/SumoPcb/kicad tutorial/Tutorial1/Library/MyLib.lib</uri>
+    <library logical="HatchLib">
+      <uri>/Users/flynn/SumoPcb/HatchLib/HatchLib.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -30,8 +30,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:tb6612fng_motor_driver
 LIBS:trinket_pro_5v
-LIBS:MyLib
-LIBS:Sumo 1-cache
+LIBS:HatchLib
+LIBS:HatchBot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -215,7 +215,7 @@ U 1 1 57918CA6
 P 4750 4700
 F 0 "U1" H 4750 5600 60  0000 C CNN
 F 1 "TB6612FNG" H 4750 5500 60  0000 C CNN
-F 2 "ArduinoFootprints:TB6612FNG" H 4750 4700 60  0001 C CNN
+F 2 "HatchFootprints:TB6612FNG" H 4750 4700 60  0001 C CNN
 F 3 "" H 4750 4700 60  0000 C CNN
 	1    4750 4700
 	-1   0    0    1   
@@ -259,7 +259,7 @@ U 1 1 578280CB
 P 4750 1700
 F 0 "J1" H 4700 1800 60  0000 C CNN
 F 1 "Trinket_Pro_5V" H 4750 1700 60  0000 C CNN
-F 2 "ArduinoFootprints:Trinket_Pro_5V" H 4750 1700 60  0001 C CNN
+F 2 "HatchFootprints:Trinket_Pro_5V" H 4750 1700 60  0001 C CNN
 F 3 "" H 4750 1700 60  0000 C CNN
 	1    4750 1700
 	1    0    0    -1  

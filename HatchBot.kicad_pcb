@@ -1014,7 +1014,7 @@
     )
   )
 
-  (module ArduinoFootprints:Trinket_Pro_5V (layer F.Cu) (tedit 57ADD2EC) (tstamp 57AD755A)
+  (module HatchFootprints:Trinket_Pro_5V (layer F.Cu) (tedit 57ADD2EC) (tstamp 57AD755A)
     (at 126.746 99.822)
     (path /578280CB)
     (fp_text reference J1 (at 7.62 -2.04) (layer F.SilkS) hide
@@ -1390,7 +1390,7 @@
     )
   )
 
-  (module ArduinoFootprints:TB6612FNG (layer B.Cu) (tedit 57ADD3BC) (tstamp 57AD75E7)
+  (module HatchFootprints:TB6612FNG (layer B.Cu) (tedit 57ADD3BC) (tstamp 57AD75E7)
     (at 150.622 110.236 270)
     (path /57918CA6)
     (fp_text reference U1 (at -2.921 4.9276 270) (layer B.SilkS)

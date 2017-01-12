@@ -5,7 +5,7 @@ last_client=kicad
 version=1
 [eeschema]
 version=1
-LibDir=MyArduinoLib
+LibDir=HatchLib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -36,9 +36,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=MyArduinoLib/tb6612fng_motor_driver
-LibName31=MyArduinoLib/trinket_pro_5v
-LibName32=kicad tutorial/Tutorial1/Library/MyLib
+LibName30=HatchLib/tb6612fng_motor_driver
+LibName31=HatchLib/trinket_pro_5v
+LibName32=HatchLib/HatchLib
 [pcbnew]
 version=1
 PageLayoutDescrFile=
