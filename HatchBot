@@ -1,6 +1,6 @@
-Source,/Users/flynn/SumoPcb/HatchBot.sch
-Kicad Rev,Eeschema 4.0.2-stable
-Generated Date,Thursday, July 21, 2016 'PMt' 11:26:14 PM
+Source,/Volumes/vault/Users/flynn/SumoPcb/HatchBot.sch
+Kicad Rev,Eeschema 4.0.5
+Generated Date,Saturday, February 25, 2017 'AMt' 01:21:22 AM
 
 Title,Sumo
 Company,Not Set
@@ -12,19 +12,23 @@ D1,1N4001,device,D_Small
 D3,1N4001,device,D_Small
 D2,1N4001,device,D_Small
 D4,1N4001,device,D_Small
-D7,1N4001,device,D_Small
-D5,1N4001,device,D_Small
-D8,1N4001,device,D_Small
-D6,1N4001,device,D_Small
-J4,Trinket_Pro_5V,trinket_pro_5v,Trinket_Pro_5V
-J1,SENSOR_CONN,HatchLib,SENSOR_CONN
-J2,SENSOR_CONN,HatchLib,SENSOR_CONN
-J3,SENSOR_CONN,HatchLib,SENSOR_CONN
-M3,Motor_Connection,HatchLib,Motor_Connection
-M4,Motor_Connection,HatchLib,Motor_Connection
-M1,Motor_Connection,HatchLib,Motor_Connection
-M2,Motor_Connection,HatchLib,Motor_Connection
-U1,TB6612FNG,HatchLib,TB6612FNG
-C3,0.1uF,device,C_Small
-C1,0.1uF,device,C_Small
+P1,DIST SENS,HatchLib,DIST_SENS_CONN
+P2,LEFT SENS,HatchLib,LIGHT_SENS_CONN
+P3,RIGHT SENS,HatchLib,LIGHT_SENS_CONN
+M1,Motor1,HatchLib,Motor_Connection
+LPWR1,Logic Power,HatchLib,Motor_Connection
+MPWR1,Motor Power,HatchLib,Motor_Connection
+U1,TB6612FNG,HatchBot-cache,TB6612FNG
 C2,10uF, 20V,device,CP1_Small
+J1,Trinket_Pro_5V,trinket_pro_5v,Trinket_Pro_5V
+C1,0.1uF,device,C_Small
+C4,10uF, 20V,device,CP1_Small
+C3,0.1uF,device,C_Small
+D5,1N4001,device,D_Small
+D7,1N4001,device,D_Small
+D6,1N4001,device,D_Small
+D8,1N4001,device,D_Small
+M2,Motor2,HatchLib,Motor_Connection
+P5,LED2,conn,CONN_01X02
+P4,LED1,conn,CONN_01X03
+XP1,EXP,conn,CONN_01X08
