@@ -1,0 +1,55 @@
+RST      RST            Reset input
+3~       AIN1           Motor A: mode pin 1
+4        AIN2           Motor A: mode pin 2
+5~       PWMA           PWM: Motor A speed
+6~       LED3           PWM: LED 3 (high level to light LED)
+8        TRIG_DIST      Trigger output for distance sensor
+9~       LED2           PWM: LED 2 (high level to light LED)
+10~      LED1_RED       PWM: LED 1 (high level to light LED)
+11~      PWMB           PWM: Motor B speed
+12       STBY           Motor controller standby mode
+13                      Trinket onboard LED
+5V       V_LOGIC        Power: Vcc to logic (output from Trinket)
+GND      GND_LOGIC      Power: ground
+BAT+     V_BAT          Power: Vcc from battery (input to Trinket)
+Aref     AREF           Analog reference voltage
+A0       SENS_LEFT      Left light sensor input
+A1       SENS_DIST      Distance sensor input
+A2       SENS_RIGHT     Right light sensor input
+A3       BIN1           Motor B: mode pin 1
+A4       BIN2           Motor B: mode pin 2
+A5       A5             Analog/digital pin 5
+RX       RX             Serial RX
+TX       TX             Serial TX
+
+Resistors R1-R4 on the board limit the LEDs to only about 3mA. Use low-current LEDs!
+
+Distance sensor
+01: OUT V_LOGIC
+02: IN  SENS_DIST
+03: OUT TRIG_DIST
+04: OUT GND_LOGIC
+
+Left light sensor
+01: OUT V_LOGIC
+02: IN  SENS_LEFT
+03: OUT GND_LOGIC
+
+Right light sensor
+01: OUT V_LOGIC
+02: IN  SENS_RIGHT
+03: OUT GND_LOGIC
+
+EXPansion header:
+5V:   OUT V_LOGIC
+TX:   OUT TX          See "Serial port" below
+RX:   IN  RX          See "Serial port" below
+GND:  OUT GND_LOGIC
+RST:  IN  RST         Logic low to reset the whole board
+A5:   I/O A5          See "Analog/digital pins" below 
+A6:   I   A6          See "Analog/digital pins" below 
+AREF: IN  AREF        See "Analog/digital pins" below 
+
+Serial port: directly connected to the Trinket. You can initialize hardware serial on these pins for debugging, or use them as digital-only GPIO.
+
+Analog/digital pins: directly connected to the Trinket. A5 can be either analog input or digital I/O; A6 is _only_ an analog input. AREF is the reference voltage for analog inputs.
