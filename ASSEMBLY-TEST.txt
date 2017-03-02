@@ -25,3 +25,5 @@ TP5     PWMA: this is the motor speed indicator for motor 1
 TP4 and TP5 should read 0VDC for stopped, up to 5VDC for full throttle, independent of direction.
 
 You can probe the screw terminals on the M1 and M2 connectors for the final output of the motors. With the motor turning full speed in one direction you should see V_MOTOR at one polarity; with the motor turning full speed in the other, you should see V_MOTOR at the opposite polarity.
+
+To use the LEDs, drive the LED pins high. PWN is OK to vary brightness.
