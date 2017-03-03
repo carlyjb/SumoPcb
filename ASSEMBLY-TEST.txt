@@ -1,0 +1,29 @@
+Assembly and test
+
+Most of the assembly should be straightforward: just follow the silkscreens.
+
+BUT. VERY IMPORTANT. Be VERY CAREFUL with polarity on things like capacitors, diodes, etc. D1-D8, in particular, alternate polarity to ease routing on the board. Wherever you see square pads on the board, the square pad is positive, and it matters.
+
+Obviously, soldering the motor controller is a bigger deal than the through-hole stuff. Take it easy and be careful.
+
+The larger pads for Logic Power and Motor Power are there for screw terminals with 3.5mm spacing for their connectors. The smaller pads are there for normal 0.1" headers. Either should work fine.
+
+JP1 is meant for attaching a switch to turn the logic side of the board on or off: you _must_ short JP1 to supply power to the Trinket. If you have an external switch, it's OK to attach a two-pin jumper across JP1.
+
+JP2 is the same, but for the motor power.
+
+LED4 is the motor power indicator; it will light if the motors are powered. The Trinket has a power LED for the logic side of the board.
+
+There are several points on the board where you should be able to use a multimeter to get some sense of what's going on:
+
+TP1     Ground
+TP2     V_MOTOR: this is the input voltage from the motor power supply, nominally 3v3
+TP3     V_LOGIC: this is the _output_ of the Trinket's voltage regulator, and should be 5V
+TP4     PWMB: this is the motor speed indicator for motor 2
+TP5     PWMA: this is the motor speed indicator for motor 1
+
+TP4 and TP5 should read 0VDC for stopped, up to 5VDC for full throttle, independent of direction.
+
+You can probe the screw terminals on the M1 and M2 connectors for the final output of the motors. With the motor turning full speed in one direction you should see V_MOTOR at one polarity; with the motor turning full speed in the other, you should see V_MOTOR at the opposite polarity.
+
+To use the LEDs, drive the LED pins high. PWN is OK to vary brightness.

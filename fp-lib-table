@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name ArduinoFootprints)(type KiCad)(uri "$(KIPRJMOD)/ArduinoFootprints.pretty")(options "")(descr ""))
+  (lib (name HatchFootprints)(type KiCad)(uri "$(KIPRJMOD)/HatchFootprints.pretty")(options "")(descr ""))
+  (lib (name HatchLib)(type KiCad)(uri "$(KIPRJMOD)/HatchLib")(options "")(descr ""))
 )
